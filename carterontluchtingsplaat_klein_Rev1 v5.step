@@ -12,7 +12,7 @@ FILE_NAME(
 /* name */ 
 'D:/Users/Wilmar/Documents/carterontluchtingsplaat_klein_Rev1 v5.step',
 
-/* time_stamp */ '2021-03-27T10:55:27+01:00',
+/* time_stamp */ '2021-03-27T13:45:56+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
@@ -193,7 +193,7 @@ DATA;
 #176=LINE('',#1059,#231);
 #177=LINE('',#1062,#232);
 #178=LINE('',#1065,#233);
-#179=VECTOR('',#708,10.);
+#179=VECTOR('',#708,10.25);
 #180=VECTOR('',#717,7.);
 #181=VECTOR('',#724,3.8);
 #182=VECTOR('',#729,1000.);
@@ -248,8 +248,8 @@ DATA;
 #231=VECTOR('',#880,1000.);
 #232=VECTOR('',#883,1000.);
 #233=VECTOR('',#888,1000.);
-#234=CIRCLE('',#637,10.);
-#235=CIRCLE('',#638,10.);
+#234=CIRCLE('',#637,10.25);
+#235=CIRCLE('',#638,10.25);
 #236=CIRCLE('',#640,6.125);
 #237=CIRCLE('',#642,6.125);
 #238=CIRCLE('',#644,3.8);
@@ -587,7 +587,7 @@ DATA;
 #570=ORIENTED_EDGE('',*,*,#402,.T.);
 #571=ORIENTED_EDGE('',*,*,#393,.F.);
 #572=ORIENTED_EDGE('',*,*,#395,.T.);
-#573=CYLINDRICAL_SURFACE('',#636,10.);
+#573=CYLINDRICAL_SURFACE('',#636,10.25);
 #574=CYLINDRICAL_SURFACE('',#641,6.125);
 #575=CYLINDRICAL_SURFACE('',#643,3.8);
 #576=CYLINDRICAL_SURFACE('',#675,14.);
@@ -914,10 +914,10 @@ POSITIVE_RATIO_MEASURE(7850.),#626);
 #890=DIRECTION('ref_axis',(1.,0.,0.));
 #891=CARTESIAN_POINT('',(0.,0.,0.));
 #892=CARTESIAN_POINT('Origin',(-27.26702051527,-17.5,0.85));
-#893=CARTESIAN_POINT('',(-17.26702051527,-17.5,0.));
+#893=CARTESIAN_POINT('',(-17.01702051527,-17.5,0.));
 #894=CARTESIAN_POINT('Origin',(-27.26702051527,-17.5,0.));
-#895=CARTESIAN_POINT('',(-17.26702051527,-17.5,1.7));
-#896=CARTESIAN_POINT('',(-17.26702051527,-17.5,0.85));
+#895=CARTESIAN_POINT('',(-17.01702051527,-17.5,1.7));
+#896=CARTESIAN_POINT('',(-17.01702051527,-17.5,0.85));
 #897=CARTESIAN_POINT('Origin',(-27.26702051527,-17.5,1.7));
 #898=CARTESIAN_POINT('Origin',(-27.26702051527,-17.5,1.7));
 #899=CARTESIAN_POINT('',(-33.39202051527,-17.5,1.7));
@@ -1132,19 +1132,15 @@ SOLID_ANGLE_UNIT()
 #1076=PRODUCT_DEFINITION_SHAPE('',$,#1079);
 #1077=SHAPE_REPRESENTATION('',(#635),#1069);
 #1078=PRODUCT_DEFINITION_CONTEXT('part definition',#1083,'design');
-#1079=PRODUCT_DEFINITION('carterontluchtingsplaat_klein_Rev1',
-'carterontluchtingsplaat_klein_Rev1 v5',#1080,#1078);
+#1079=PRODUCT_DEFINITION('(Unsaved)','(Unsaved)',#1080,#1078);
 #1080=PRODUCT_DEFINITION_FORMATION('',$,#1085);
-#1081=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'carterontluchtingsplaat_klein_Rev1 v5',
-'carterontluchtingsplaat_klein_Rev1 v5',(#1085));
+#1081=PRODUCT_RELATED_PRODUCT_CATEGORY('(Unsaved)','(Unsaved)',(#1085));
 #1082=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#1083);
 #1083=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #1084=PRODUCT_CONTEXT('part definition',#1083,'mechanical');
-#1085=PRODUCT('carterontluchtingsplaat_klein_Rev1',
-'carterontluchtingsplaat_klein_Rev1 v5',$,(#1084));
+#1085=PRODUCT('(Unsaved)','(Unsaved)',$,(#1084));
 #1086=PRESENTATION_STYLE_ASSIGNMENT((#1088));
 #1087=PRESENTATION_STYLE_ASSIGNMENT((#1089));
 #1088=SURFACE_STYLE_USAGE(.BOTH.,#1090);
